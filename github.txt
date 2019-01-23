@@ -24,7 +24,10 @@ clip < ~/.ssh/id_rsa.pub
 ==========================================================================
 add ssh key to project
 ---------------------------
+ssh-add ~/.ssh/id_rs
 clip < ~/.ssh/id_rsa.pub
+/**************that’s will copy a ssh key 
+and u will go to the sitings and paste it in new ssh key
 ======================================================================================
 git push:
 ===========
