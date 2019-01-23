@@ -1,0 +1,3 @@
+php artisan make:mail mymail --markdown=emails.my.mail
+////////////////////////////////////////////////////
+ Mail::to($request->user())->send(new OrderShipped($order));
